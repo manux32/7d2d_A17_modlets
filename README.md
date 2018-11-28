@@ -20,8 +20,8 @@ See the [**LICENSE file**](LICENSE.md) for Terms of Use details.
 
 # Highlights
 
-## [Custom Vehicles](Manux%20Custom%20Vehicles%20A17%20modlet)  
-| ![img](Manux%20Custom%20Vehicles%20A17%20modlet/ItemIcons/manux_RoadHog.png) | ![img](Manux%20Custom%20Vehicles%20A17%20modlet/ItemIcons/manux_HellGoatBike.png) | ![img](Manux%20Custom%20Vehicles%20A17%20modlet/ItemIcons/manux_Quad.png) | ![img](Manux%20Custom%20Vehicles%20A17%20modlet/ItemIcons/manux_CicadaCar.png) | ![img](Manux%20Custom%20Vehicles%20A17%20modlet/ItemIcons/manux_HP4x4Truck.png) |  
+## [Custom Vehicles](manux_CustomVehicles_A17_modlet)  
+| ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_RoadHog.png) | ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_HellGoatBike.png) | ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_Quad.png) | ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_CicadaCar.png) | ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_HP4x4Truck.png) |  
 |:---:|:---:|:---:|:---:|:---:|  
 | Dust2Death's Road Hog | Hell Goat Bike | Quad | Cicada Car | HP 4x4 Truck |
 
