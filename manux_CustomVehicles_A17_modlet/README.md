@@ -13,6 +13,8 @@ It does not contain all the features I have in my A16 mod. I will not port my fu
 You can simply place this modlet in the Mods folder of your A17 installation.  
 I don't think A17 currently supports automatically reading from Localization files that are inside mod folders. So, you can simply copy the content of the _Config/Localization.txt_ file to the Game's _Localization.txt_ file.  
 
+[**SDX Version here**](https://github.com/manux32/7d2d_A17_sdx_mods).
+
 
 ## Vids
 ### 1st early A17 Custom Vehicle test...  More vids coming soon...
