@@ -1,9 +1,9 @@
-<!--Read this in github to have all the visuals and formatting: https://github.com/manux32/7dtdSdxMods-->
+<!--Read this in github to have all the visuals and formatting: https://github.com/manux32/7d2d_A17_modlets-->
 
 # Terms of use  
 
 The following license applies to all my mods.  
-Some mods like the [**Custom Vehicles**](https://github.com/manux32/7dtdSdxMods/tree/master/Manux_CustomVehicles#terms-of-use) mod contain additional **Terms of Use** details, like: the list of Assets used in the mod, their provenance, price if they were purchased, and specific Asset licensing terms.  
+Some mods like the [**Custom Vehicles**](https://github.com/manux32/7d2d_A17_modlets/tree/master/manux_CustomVehicles_A17_modlet#terms-of-use) mod contain additional **Terms of Use** details, like: the list of Assets used in the mod, their provenance, price if they were purchased, and specific Asset licensing terms.  
 
 ## License
 **Creative Commons**  
