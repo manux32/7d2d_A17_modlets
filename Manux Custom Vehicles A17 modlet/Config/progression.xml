@@ -1,0 +1,11 @@
+<configs>
+	
+	<append xpath="/progression/perks">
+	</append>
+	
+	<!--<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='2,5']/@tags"></append>-->
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='3,5']/@tags">,manux_vehicleQuadPlaceable,manux_vehicleCarChassis,manux_vehicleCarAccessories,manux_vehicleCicadaCarPlaceable</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,manux_vehicleRoadHogPlaceable</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='5']/@tags">,manux_bigEngine,manux_vehicleHellGoatBikePlaceable,manux_vehicleHP4x4TruckPlaceable</append>
+ 
+ </configs>

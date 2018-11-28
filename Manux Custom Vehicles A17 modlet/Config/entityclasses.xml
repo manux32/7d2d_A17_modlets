@@ -1,0 +1,108 @@
+<configs>
+	<append xpath="/entity_classes">
+
+		<entity_class name="manux_vehicleHP4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/manux_4x4TruckReplica.unity3d?4x4_test_prefab.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_4x4"/>
+		</entity_class>
+		
+		<entity_class name="manux_vehicleQuad">
+			<property name="Tags" value="vehicle,vehicleWeaponGun,vehicleWeaponGrenadeLauncher"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/manux_Quad.unity3d?QuadPrefab_A17.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="80"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="4"/>
+			<property name="Explosion.RadiusEntities" value="4"/>
+			<property name="Explosion.BlockDamage" value="50"/>
+			<property name="Explosion.EntityDamage" value="50"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_4x4"/>
+			<effect_group>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+			</effect_group>
+		</entity_class>
+		
+		<entity_class name="manux_vehicleHellGoatBike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityMotorcycle"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/manux_HellGoatBike.unity3d?HellGoatBikePrefab_A17.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="80"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="4"/>
+			<property name="Explosion.RadiusEntities" value="4"/>
+			<property name="Explosion.BlockDamage" value="50"/>
+			<property name="Explosion.EntityDamage" value="50"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_motorcycle"/>
+		</entity_class>
+		
+		<entity_class name="manux_vehicleRoadHog">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityMotorcycle"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/manux_RoadHog.unity3d?RoadHog_manux_A17.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="78"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="4"/>
+			<property name="Explosion.RadiusEntities" value="4"/>
+			<property name="Explosion.BlockDamage" value="50"/>
+			<property name="Explosion.EntityDamage" value="50"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_motorcycle"/>
+		</entity_class>
+		
+		<entity_class name="manux_vehicleCicadaCar">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/manux_CicadaCar.unity3d?CicadaCar_A17.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="81"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="4"/>
+			<property name="Explosion.RadiusEntities" value="4"/>
+			<property name="Explosion.BlockDamage" value="75"/>
+			<property name="Explosion.EntityDamage" value="75"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_4x4"/>
+		</entity_class>
+		
+	 </append>
+</configs>

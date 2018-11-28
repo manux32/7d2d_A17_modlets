@@ -1,0 +1,54 @@
+<configs>
+	<append xpath="/item_modifiers">
+	
+		<!-- These are just tests to try to add weapon meshes on vehicles using the new mods system. I am hoping to use this system for vehicle weapons when I port my full mod to A17 stable -->
+		
+		<item_modifier name="modVehicleGun" installable_tags="vehicle" modifier_tags="vehicleWeaponGun" type="attachment" rarity="0.5">
+			<property name="CustomIcon" value="manux_Vehicle50calGun"/>
+			<property name="Stacknumber" value="1"/>
+			<!--<effect_group>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" parent_transform="Mesh" prefab="#@modfolder:Resources/manux_VehicleWeapons.unity3d?50calMachineGunPrefab.prefab"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/manux_VehicleWeapons.unity3d?50calMachineGunPrefab.prefab" parent_transform="Mesh" local_rotation="0,0,0" local_position="-0.549,0.902,0.564"/>
+			</effect_group>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="modVehicleGun"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="modVehicleGun"/>
+			</effect_group>
+		</item_modifier>
+		
+		<item_modifier name="modVehicleGrenadeLauncher" installable_tags="vehicle" modifier_tags="vehicleWeaponGrenadeLauncher" type="attachment" rarity="0.5">
+			<property name="CustomIcon" value="manux_VehicleGrenadeLauncher"/>
+			<property name="Stacknumber" value="1"/>
+			<!--<effect_group>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePrefabFromEntity" parent_transform="Mesh" prefab="#@modfolder:Resources/manux_VehicleWeapons.unity3d?GrenadeLauncherPrefab.prefab"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AttachPrefabToEntity" prefab="#@modfolder:Resources/manux_VehicleWeapons.unity3d?GrenadeLauncherPrefab.prefab" parent_transform="Mesh" local_rotation="0,0,0" local_position="0.581,0.897,0.536"/>
+			</effect_group>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="modVehicleGrenadeLauncher"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="modVehicleGrenadeLauncher"/>
+			</effect_group>
+		</item_modifier>
+		
+		<item_modifier name="modVehicleEngineTurbo_manux" installable_tags="vehicle" modifier_tags="speed" type="attachment" rarity="0.5">
+			<property name="CustomIcon" value="smallEngine"/>
+			<property name="Stacknumber" value="1"/>
+			<effect_group tiered="false">
+				<passive_effect name="VehicleSpeedMax" operation="perc_add" value="7"/>
+				<passive_effect name="VehicleBoostedSpeedMax" operation="perc_add" value="7"/>
+				<!--<passive_effect name="velocityMax" operation="perc_add" value="7"/>-->
+			</effect_group>
+		</item_modifier>
+		
+		<item_modifier name="modVehicleDamageMaker_manux" installable_tags="vehicle" modifier_tags="damageMaker" type="attachment" rarity="0.5">
+			<property name="CustomIcon" value="modArmorSpikedKnuckles"/>
+			<property name="Stacknumber" value="1"/>
+			
+			<effect_group tiered="false">
+				<passive_effect name="VehicleEntityDamage" operation="perc_add" value="10"/>
+				<passive_effect name="VehicleBlockDamage" operation="perc_add" value="10"/>
+			</effect_group>
+			
+		</item_modifier>
+		
+	 </append>
+ </configs>
