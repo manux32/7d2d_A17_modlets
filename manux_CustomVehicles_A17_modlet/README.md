@@ -28,7 +28,7 @@ I don't think A17 currently supports automatically reading from Localization fil
 
 
 ## Vids
-| [![new toys](http://img.youtube.com/vi/https://youtu.be/OKTsIO4xcEI/0.jpg)](https://youtu.be/https://youtu.be/OKTsIO4xcEI "A17 - New toys in action") |  
+| [![new toys](http://img.youtube.com/vi/OKTsIO4xcEI/0.jpg)](https://youtu.be/OKTsIO4xcEI "A17 - New toys in action") |  
 |:---:|   
 |A17 - New toys in action|   
 
