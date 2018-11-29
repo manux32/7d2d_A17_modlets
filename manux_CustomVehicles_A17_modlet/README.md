@@ -28,10 +28,9 @@ I don't think A17 currently supports automatically reading from Localization fil
 
 
 ## Vids
-### 1st early A17 Custom Vehicle test...  More vids coming soon...
-| [![driveable cars](http://img.youtube.com/vi/DFgJ6jnk9gA/0.jpg)](https://youtu.be/DFgJ6jnk9gA "A17 - First custom Vehicle Test") |  
+| [![new toys](http://img.youtube.com/vi/https://youtu.be/OKTsIO4xcEI/0.jpg)](https://youtu.be/https://youtu.be/OKTsIO4xcEI "A17 - New toys in action") |  
 |:---:|   
-|A17 - First custom Vehicle Test|   
+|A17 - New toys in action|   
 
 # Terms of use  
 
