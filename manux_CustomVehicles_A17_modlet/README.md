@@ -8,6 +8,17 @@
 
 This is currently an XML-only A17 modlet that features some of my [**A16 Custom Vehicles**](https://github.com/manux32/7dtdSdxMods/tree/master/Manux_CustomVehicles).  
 It does not contain all the features I have in my A16 mod. I will not port my full Custom Vehicles mod until A17 stable ships.  
+But TFP implemented so many of the features that I have in my A16 mod, that you won't be missing that many features. :smiley:
+
+### Vehicle Features from my A16 mod that are now in A17 vanilla
+- Block damage
+- Entity damage
+- Can drive in water
+- Custom Storage Size per vehicle
+- Control Player and Camera position via XML
+- Custom icon per vehicle
+- Flying vehicles
+- ...
 
 # Installation
 You can simply place this modlet in the Mods folder of your A17 installation.  
