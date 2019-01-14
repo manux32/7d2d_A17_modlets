@@ -65,5 +65,26 @@
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
 		
+		<recipe name="manux_vehicleBigWheels" count="1" tags="learnable">
+			<ingredient name="resourceScrapPolymers" count="60"/>
+			<ingredient name="resourceAcid" count="3"/>
+			<ingredient name="resourceForgedIron" count="6"/>
+			<ingredient name="resourceOil" count="6"/>
+			<ingredient name="resourceCoal" count="30"/>
+		</recipe>
+		
+		<recipe name="manux_vehicleBigWheels" count="1" tags="learnable">
+			<ingredient name="vehicleWheels" count="3"/>
+			<ingredient name="resourceGlue" count="6"/>
+		</recipe>
+		
+		<recipe name="manux_vehicleMonsterBeetlePlaceable" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="manux_vehicleBigWheels" count="4"/>
+			<ingredient name="manux_vehicleCarChassis" count="1"/>
+			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+			<ingredient name="manux_bigEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+		
 	</append>
  </configs>

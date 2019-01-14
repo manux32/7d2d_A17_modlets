@@ -1,6 +1,6 @@
 Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
-manux_vehicleHP4x4TruckPlaceable,vehicles,item,EnChanged,High-Power 4x4 Truck,,,,,
-manux_vehicleHP4x4Truck,vehicles,vehicle,EnChanged,High-Power 4x4 Truck,,,,,
+manux_vehicleHP4x4TruckPlaceable,vehicles,item,EnChanged,Manux's High-Power 4x4 Truck,,,,,
+manux_vehicleHP4x4Truck,vehicles,vehicle,EnChanged,Manux's High-Power 4x4 Truck,,,,,
 manux_vehicleHP4x4TruckDesc,vehicles,vehicle,EnChanged,"A faster, more powerful 4x4",,,,,
 manux_vehicleQuadPlaceable,vehicles,item,EnChanged,Manux's Quad,,,,,
 manux_vehicleQuad,vehicles,vehicle,EnChanged,Manux's Quad,,,,,
@@ -20,3 +20,8 @@ manux_vehicleCarAccessoriesDesc,items,Part,EnChanged,Accessories needed to craft
 manux_vehicleCicadaCarPlaceable,vehicles,item,EnChanged,Manux's Cicada Car,,,,,
 manux_vehicleCicadaCar,vehicles,vehicle,EnChanged,Manux's Cicada Car,,,,,
 manux_vehicleCicadaCarDesc,vehicles,vehicle,EnChanged,"Not the fastest vehicle, but it has a lot of Storage.",,,,,
+manux_vehicleBigWheels,items,Part,EnChanged,Vehicle Big Wheels,,,,,
+manux_vehicleBigWheelsDesc,items,Part,EnChanged,Big Wheels for your bigger vehicles.,,,,,
+manux_vehicleMonsterBeetle,vehicles,vehicle,EnChanged,Manux's Monster Beetle,,,,,
+manux_vehicleMonsterBeetlePlaceable,vehicles,vehicle,EnChanged,Manux's Monster Beetle,,,,,
+manux_vehicleMonsterBeetleDesc,vehicles,vehicle,EnChanged,"Big, Fast, Strong, and Deadly. It even hops. A King's Ride!",,,,,
