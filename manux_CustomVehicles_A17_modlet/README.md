@@ -1,9 +1,9 @@
 <!--Read this in github to have all the visuals and formatting: https://github.com/manux32/7d2d_A17_sdx_mods/tree/master/manux_CustomVehicles_A17_modlet-->
 
 # A17 Custom Vehicles modlet
-| ![img](ItemIcons/manux_RoadHog.png) | ![img](ItemIcons/manux_HellGoatBike.png) | ![img](ItemIcons/manux_Quad.png) | ![img](ItemIcons/manux_CicadaCar.png) | ![img](ItemIcons/manux_HP4x4Truck.png) |  
-|:---:|:---:|:---:|:---:|:---:|  
-| Dust2Death's Road Hog | Hell Goat Bike | Quad | Cicada Car | HP 4x4 Truck |  
+| ![img](ItemIcons/manux_RoadHog.png) | ![img](ItemIcons/manux_HellGoatBike.png) | ![img](ItemIcons/manux_Quad.png) | ![img](ItemIcons/manux_CicadaCar.png) | ![img](ItemIcons/manux_HP4x4Truck.png) | ![img](ItemIcons/manux_MonsterBeetle.png) |  
+|:---:|:---:|:---:|:---:|:---:|:---:|  
+| Dust2Death's Road Hog | Hell Goat Bike | Quad | Cicada Car | HP 4x4 Truck | Monster Beetle |  
   
 
 This is currently an XML-only A17 modlet that features some of my [**A16 Custom Vehicles**](https://github.com/manux32/7dtdSdxMods/tree/master/Manux_CustomVehicles).  
