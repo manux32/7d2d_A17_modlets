@@ -124,5 +124,43 @@
 			<property name="MapIcon" value="ui_game_symbol_4x4"/>
 		</entity_class>
 		
+		<entity_class name="manux_vehicleHelicopterOH58">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVHelicopter"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/manux_HelicopterOH58.unity3d?HelicopterOH58Prefab_A17.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="81"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="6"/>
+			<property name="Explosion.RadiusEntities" value="6"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_gyrocopter"/>
+		</entity_class>
+		
+		<entity_class name="manux_vehicleJetPack">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVBlimp"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/manux_JetPack.unity3d?JetPackPrefab_A17.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="76"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="6"/>
+			<property name="Explosion.RadiusEntities" value="6"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_gyrocopter"/>
+		</entity_class>
+		
 	 </append>
 </configs>

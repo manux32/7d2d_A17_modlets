@@ -86,5 +86,37 @@
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
 		
+		<recipe name="manux_vehicleHelicopterChassis" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="250"/>
+			<ingredient name="resourceMechanicalParts" count="40"/>
+			<ingredient name="resourceDuctTape" count="30"/>
+			<ingredient name="resourceLeather" count="35"/>
+			<ingredient name="resourceElectricParts" count="20"/>
+		</recipe>
+		
+		<recipe name="manux_vehicleHelicopterRotor" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="100"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceGlue" count="20"/>
+			<ingredient name="resourceDuctTape" count="20"/>	
+		</recipe>
+		
+		<recipe name="manux_vehicleHelicopterOH58Placeable" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="manux_vehicleHelicopterChassis" count="1"/>
+			<ingredient name="manux_vehicleHelicopterRotor" count="1"/>
+			<ingredient name="vehicleGyroCopterAccessories" count="1"/>
+			<ingredient name="manux_bigEngine" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+		
+		<recipe name="manux_vehicleJetPackPlaceable" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="100"/>
+			<ingredient name="vehicleGyroCopterAccessories" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceElectricParts" count="20"/>
+			<ingredient name="resourceDuctTape" count="20"/>
+		</recipe>
+		
 	</append>
  </configs>

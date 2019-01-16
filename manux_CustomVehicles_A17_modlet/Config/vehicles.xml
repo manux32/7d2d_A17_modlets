@@ -871,5 +871,185 @@
 
 		</vehicle>
 	
+		<vehicle name="manux_vehicleHelicopterOH58">
+
+			<property name="cameraDistance" value="9, 11"/>
+			<property name="cameraTurnRate" value=".2, .35"/>
+			<property name="motorTorqueMinQ" value="8000"/>
+			<property name="motorTorqueMaxQ" value="12000"/>
+			<property name="brakeTorque" value="5000"/>
+			<property name="upAngleMax" value="3"/>
+			<property name="upForce" value="1"/>
+			<property name="steerRate" value="130"/>
+			<property name="steerCenteringRate" value="90"/>
+			<property name="tiltAngleMax" value="2"/>
+			<property name="tiltThreshold" value=".1"/>
+			<property name="tiltDampening" value=".01"/>
+			<property name="tiltDampenThreshold" value="1"/>
+			<property name="tiltUpForce" value="1"/>
+			<property name="hopForce" value="0"/>
+			<property name="unstickForce" value="1"/>
+			<property name="velocityMax" value="20, 28"/>
+			<property name="waterY_VelMaxScale" value="2, .2"/>
+
+			<property name="hornSound" value="vehicle/minibike/minibike_horn"/>
+			
+			<property class="engine">
+				<property name="class" value="Engine"/>
+				<property name="display_name" value="engine"/>
+				<property name="slot_type" value="engine"/>
+				<property name="mesh" value="engine_small"/>
+				<property name="transform" value="engine_small"/>
+				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+				<property name="fuelKmPerL" value=".5"/>
+				<property name="gear1" value="
+									500,2500, -1400,800,0, 700,2200,900,
+									Vehicles/Suv/suv_accel1,
+									Vehicles/Suv/suv_decel1,
+									0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,
+									-.4, -.02, .7, .7, -.2, 9, .2, Vehicles/Suv/suv_max_speed_lp
+									"/>
+				<property name="sound_start" value="Vehicles/Suv/suv_startup"/>
+				<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+				<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+				<property name="part_damage_reduction" value="0.5"/>
+				<property name="parent_part" value="chassis"/>
+			</property>
+
+			<property class="fuelTank">
+				<property name="class" value="FuelTank"/>
+				<property name="parent_part" value="engine"/>
+				<property name="capacity" value="60"/>
+			</property>
+
+			<property class="handlebars">
+				<property name="parent_part" value="chassis"/>
+				<property name="class" value="Steering"/>
+				<property name="display_name" value="steering"/>
+				<property name="slot_type" value="handlebars"/>
+				<property name="transform" value="Origin/steering_joint"/>
+				<property name="steerMaxAngle" value="0"/>
+				<property name="IKHandLPosition" value="-0.061, 0.296, 0.684"/>
+				<property name="IKHandLRotation" value="68.838, 71.233, 160.188"/>
+				<property name="IKHandRPosition" value="0.069, 0.303, 0.67"/>
+				<property name="IKHandRRotation" value="50.507, -68.192, -155.695"/>
+			</property>
+
+			<property class="seat0">
+				<property name="position" value="-0.4, 0.4, 1.3"/>
+				<property name="rotation" value="0, 0, 0"/>
+				<property name="exit" value="-3,0,0 ~ 3,0,0 ~ 0,0,-10 ~ 0,0,5 ~ 0,4,0"/>
+			</property>
+			
+			<property class="seat1">
+				<property name="position" value="0.4, 0.4, 1.3"/>
+				<property name="rotation" value="0, 0, 0"/>
+				<property name="exit" value="3,0,0 ~ -3,0,0 ~ 0,0,-10 ~ 0,0,5 ~ 0,4,0"/>
+			</property>
+			
+			<property class="seat2">
+				<property name="position" value="-0.4, 0.4, 0"/>
+				<property name="rotation" value="0, 0, 0"/>
+				<property name="exit" value="-3,0,-1 ~ 3,0,-1 ~ -1,0,-10 ~ -1,0,5 ~ -1,4,0"/>
+			</property>
+			
+			<property class="seat3">
+				<property name="position" value="0.4, 0.4, 0"/>
+				<property name="rotation" value="0, 0, 0"/>
+				<property name="exit" value="3,0,-1 ~ -3,0,-1 ~ 1,0,-10 ~ 1,0,5 ~ 1,4,0"/>
+			</property>
+
+			<property class="headlight">
+				<property name="class" value="Headlight"/>
+				<property name="parent_part" value="chassis"/>
+				<property name="transform" value="Origin/headlight_root/headlight"/>
+				<property name="bright" value=".9"/>
+			</property>
+			
+			<property class="storage">
+				<property name="class" value="Storage"/>
+				<property name="display_name" value="basket"/>
+				<property name="slot_type" value="basket"/>
+				<property name="mesh" value="basket"/>
+				<property name="transform" value="basket"/>
+				<property name="parent_part" value="chassis"/>
+			</property>
+		</vehicle>
+	
+		<vehicle name="manux_vehicleJetPack">
+
+			<property name="cameraDistance" value="4, 4"/>
+			<property name="cameraTurnRate" value=".2, .35"/>
+			<property name="motorTorqueMinQ" value="1"/>
+			<property name="motorTorqueMaxQ" value="1"/>
+			<property name="brakeTorque" value="10"/>
+			<property name="upAngleMax" value="3"/>
+			<property name="upForce" value="1"/>
+			<property name="steerRate" value="130"/>
+			<property name="steerCenteringRate" value="90"/>
+			<property name="tiltAngleMax" value="2"/>
+			<property name="tiltThreshold" value=".1"/>
+			<property name="tiltDampening" value=".01"/>
+			<property name="tiltDampenThreshold" value="1"/>
+			<property name="tiltUpForce" value="1"/>
+			<property name="hopForce" value="0"/>
+			<property name="unstickForce" value="1"/>
+			<property name="velocityMax" value="7, 10"/>
+			<property name="waterY_VelMaxScale" value="2, .2"/>
+
+			<property name="hornSound" value="vehicle/minibike/minibike_horn"/>
+
+			<property class="engine">
+				<property name="class" value="Engine"/>
+				<property name="slot_type" value="engine"/>
+				<property name="fuelKmPerL" value="1"/>
+				<property name="gear1" value="
+									500,2500, -1400,800,0, 1500,9999,9999,
+									,
+									,
+									0, .5,  .45, .1,  -9, .1, .1, Vehicles/Gyrocopter/gyrocopter_idle_lp,
+									-.1, .1,  .65, .7,  0, 9, .1, Vehicles/Gyrocopter/gyrocopter_med_lp
+									"/>
+				<property name="sound_start" value="Vehicles/Gyrocopter/gyrocopter_start"/>
+				<property name="sound_shut_off" value="Vehicles/Gyrocopter/gyrocopter_shutoff"/>
+				<property name="sound_no_fuel_shut_off" value="Vehicles/Gyrocopter/gyrocopter_sputter"/>
+				<property name="parent_part" value="chassis"/>
+			</property>
+
+			<property class="fuelTank">
+				<property name="class" value="FuelTank"/>
+				<property name="parent_part" value="engine"/>
+				<property name="capacity" value="10"/>
+			</property>
+
+			<property class="handlebars">
+				<property name="parent_part" value="chassis"/>
+				<property name="class" value="Steering"/>
+				<property name="display_name" value="steering"/>
+				<property name="slot_type" value="handlebars"/>
+				<property name="transform" value="Origin/steering_joint"/>
+				<property name="steerMaxAngle" value="0"/>
+				<property name="IKHandLPosition" value="-.154, .1256, .0265"/>
+				<property name="IKHandLRotation" value="37.55, -13.433, 49.88"/>
+				<property name="IKHandRPosition" value=".154, .1256, .0265"/>
+				<property name="IKHandRRotation" value="37.55, 13.433, -49.88"/>
+			</property>
+
+			<property class="seat0">
+				<property name="position" value="0, 0.1, -0.2"/>
+				<property name="rotation" value="0, 0, 0"/>
+				<property name="exit" value="0,0,1 ~ 1,0,0 ~ -1,0,0 ~ 0,0,-1 ~ 0,3,0"/>
+			</property>
+
+			<property class="storage">
+				<property name="class" value="Storage"/>
+				<property name="display_name" value="basket"/>
+				<property name="slot_type" value="basket"/>
+				<property name="mesh" value="basket"/>
+				<property name="transform" value="basket"/>
+				<property name="parent_part" value="chassis"/>
+			</property>
+		</vehicle>
+		
 	 </append>
 </configs>

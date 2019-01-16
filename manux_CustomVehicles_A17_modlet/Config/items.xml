@@ -125,5 +125,49 @@
 			</effect_group>
 		</item>
 		
+		<item name="manux_vehicleHelicopterChassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="DescriptionKey" value="manux_vehicleHelicopterChassisDesc"/>
+			<property name="CustomIcon" value="manux_HelicopterOH58"/>
+			<property name="EconomicValue" value="10000"/>
+		</item>
+		
+		<item name="manux_vehicleHelicopterRotor">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="DescriptionKey" value="manux_vehicleHelicopterRotorDesc"/>
+			<property name="CustomIcon" value="manux_HelicopterRotor"/>
+			<property name="EconomicValue" value="4000"/>
+		</item>
+		
+		<item name="manux_vehicleHelicopterOH58Placeable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="manux_HelicopterOH58"/>
+			<property name="DescriptionKey" value="manux_vehicleHelicopterOH58Desc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/manux_HelicopterOH58.unity3d?HelicopterOH58Prefab_A17.prefab"/>
+			<property name="EconomicValue" value="80000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="manux_vehicleHelicopterOH58"/>
+				<property name="VehicleSize" value="4, 4, 13"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="3500,7500" tier="1,6"/>
+			</effect_group>
+		</item>
+		
+		<item name="manux_vehicleJetPackPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="manux_JetPack"/>
+			<property name="DescriptionKey" value="manux_vehicleJetPackDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/manux_JetPack.unity3d?JetPackPrefab_A17.prefab"/>
+			<property name="EconomicValue" value="25000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="manux_vehicleJetPack"/>
+				<property name="VehicleSize" value="1, 1, 1"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="1500,3000" tier="1,6"/>
+			</effect_group>
+		</item>
+		
 	 </append>
  </configs>
