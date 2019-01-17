@@ -4,7 +4,10 @@
 | ![img](ItemIcons/manux_RoadHog.png) | ![img](ItemIcons/manux_HellGoatBike.png) | ![img](ItemIcons/manux_Quad.png) | ![img](ItemIcons/manux_CicadaCar.png) | ![img](ItemIcons/manux_HP4x4Truck.png) | ![img](ItemIcons/manux_MonsterBeetle.png) |  
 |:---:|:---:|:---:|:---:|:---:|:---:|  
 | Dust2Death's Road Hog | Hell Goat Bike | Quad | Cicada Car | HP 4x4 Truck | Monster Beetle |  
-  
+
+| ![img](ItemIcons/manux_JetPack.png) | ![img](ItemIcons/manux_HelicopterOH58.png) |   
+|:---:|:---:|  
+| Jet Pack | Helicopter OH-58 |  
 
 This is currently an XML-only A17 modlet that features some of my [**A16 Custom Vehicles**](https://github.com/manux32/7dtdSdxMods/tree/master/Manux_CustomVehicles).  
 It does not contain all the features I have in my A16 mod. I will not port my full Custom Vehicles mod until A17 stable ships.  
@@ -22,6 +25,7 @@ But TFP implemented so many of the features that I have in my A16 mod, that you 
 
 # Installation
 You can simply place this modlet in the Mods folder of your A17 installation.  
+The relative path should look something like this: ___"...\7 Days To Die\Mods\manux_CustomVehicles_A17_modlet"___  
 I don't think A17 currently supports automatically reading from Localization files that are inside mod folders. So, you can simply copy the content of the _Config/Localization.txt_ file to the Game's _Localization.txt_ file.  
 
 [**SDX Version here**](https://github.com/manux32/7d2d_A17_sdx_mods).
