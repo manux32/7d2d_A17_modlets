@@ -118,5 +118,13 @@
 			<ingredient name="resourceDuctTape" count="20"/>
 		</recipe>
 		
+		<recipe name="manux_vehiclePedalGyroPlaceable" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="vehicleWheels" count="3"/>
+			<ingredient name="vehicleGyroCopterChassis" count="1"/>
+			<ingredient name="manux_vehicleHelicopterRotor" count="1"/>
+			<ingredient name="resourceHeadlight" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+		
 	</append>
  </configs>

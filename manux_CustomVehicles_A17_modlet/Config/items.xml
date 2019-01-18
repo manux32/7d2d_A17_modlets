@@ -169,5 +169,20 @@
 			</effect_group>
 		</item>
 		
+		<item name="manux_vehiclePedalGyroPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="manux_PedalGyro"/>
+			<property name="DescriptionKey" value="manux_vehiclePedalGyroDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/manux_PedalGyro.unity3d?PedalGyro_A17.prefab"/>
+			<property name="EconomicValue" value="15000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="manux_vehiclePedalGyro"/>
+				<property name="VehicleSize" value="2.5, 2.5, 5.5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="1500,3000" tier="1,6"/>
+			</effect_group>
+		</item>
+		
 	 </append>
  </configs>
