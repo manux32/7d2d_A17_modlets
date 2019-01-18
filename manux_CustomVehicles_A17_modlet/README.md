@@ -5,9 +5,9 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|  
 | Dust2Death's Road Hog | Hell Goat Bike | Quad | Cicada Car | HP 4x4 Truck | Monster Beetle |  
 
-| ![img](ItemIcons/manux_JetPack.png) | ![img](ItemIcons/manux_HelicopterOH58.png) |   
-|:---:|:---:|  
-| Jet Pack | Helicopter OH-58 |  
+| ![img](ItemIcons/manux_PedalGyro.png) | ![img](ItemIcons/manux_JetPack.png) | ![img](ItemIcons/manux_HelicopterOH58.png) |   
+|:---:|:---:|:---:|  
+| Pedal Gyro | Jet Pack | Helicopter OH-58 |  
 
 This is currently an XML-only A17 modlet that features some of my [**A16 Custom Vehicles**](https://github.com/manux32/7dtdSdxMods/tree/master/Manux_CustomVehicles).  
 It does not contain all the features I have in my A16 mod. I will not port my full Custom Vehicles mod until A17 stable ships.  
