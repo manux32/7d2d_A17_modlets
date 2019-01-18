@@ -32,9 +32,9 @@ I don't think A17 currently supports automatically reading from Localization fil
 
 
 ## Vids
-| [![new toys](http://img.youtube.com/vi/OKTsIO4xcEI/0.jpg)](https://youtu.be/OKTsIO4xcEI "A17 - New toys in action") |  
-|:---:|   
-|A17 - New toys in action|   
+| [![new toys](http://img.youtube.com/vi/OKTsIO4xcEI/0.jpg)](https://youtu.be/OKTsIO4xcEI "A17 - New toys in action") | [![monster beetle](http://img.youtube.com/vi/vpqBS0liAQM/0.jpg)](https://youtu.be/vpqBS0liAQM "Monster Beetle") | [![helico and Jet Pack](http://img.youtube.com/vi/7U7VUzD9iWM/0.jpg)](https://youtu.be/7U7VUzD9iWM "Helico and Jet Pack") | [![Pedal Gyro](http://img.youtube.com/vi/AM6buSS7lbs/0.jpg)](https://youtu.be/AM6buSS7lbs "Human-powered Gyrocopter") |  
+|:---:|:---:|:---:|:---:|  
+|A17 - New toys in action|Monster Beetle|Helico and Jet Pack|Human-powered Gyrocopter|  
 
 # Terms of use  
 
