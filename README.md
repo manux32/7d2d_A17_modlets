@@ -25,6 +25,6 @@ See the [**LICENSE file**](LICENSE.md) for Terms of Use details.
 |:---:|:---:|:---:|:---:|:---:|:---:|  
 | Dust2Death's Road Hog | Hell Goat Bike | Quad | Cicada Car | HP 4x4 Truck | Monster Beetle |  
 
-| ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_PedalGyro.png) | ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_JetPack.png) | ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_HelicopterOH58.png) |   
-|:---:|:---:|:---:|  
-| Pedal Gyro | Jet Pack | Helicopter OH-58 |  
+| ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_MonoHog.png) | ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_PedalGyro.png) | ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_JetPack.png) | ![img](manux_CustomVehicles_A17_modlet/ItemIcons/manux_HelicopterOH58.png) |   
+|:---:|:---:|:---:|:---:|  
+| Mono-Hog | Pedal Gyro | Jet Pack | Helicopter OH-58 |  
