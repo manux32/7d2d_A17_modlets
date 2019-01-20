@@ -38,3 +38,6 @@ manux_vehicleJetPackDesc,vehicles,vehicle,EnChanged,"A MacGyver-style dream ride
 manux_vehiclePedalGyro,vehicles,vehicle,EnChanged,Manux's Pedal Gyro,,,,,
 manux_vehiclePedalGyroPlaceable,vehicles,vehicle,EnChanged,Manux's Pedal Gyro,,,,,
 manux_vehiclePedalGyroDesc,vehicles,vehicle,EnChanged,"A human-powered Gyrocopter.",,,,,
+manux_vehicleMonoHog,vehicles,vehicle,EnChanged,Manux's Mono-Hog,,,,,
+manux_vehicleMonoHogPlaceable,vehicles,vehicle,EnChanged,Manux's Mono-Hog,,,,,
+manux_vehicleMonoHogDesc,vehicles,vehicle,EnChanged,"A Monocycle Hog. Original, Fast, strong, agile, and a hopper.",,,,,

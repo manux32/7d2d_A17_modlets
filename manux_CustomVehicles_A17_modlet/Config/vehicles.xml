@@ -1,10 +1,15 @@
 <configs>
 	
 	<!-- Vanilla vehicles -->
+	
+	<!-- Seats placement testing -->
+	<!--<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@class='seat0']/property[@name='position']/@value">0, 0.1, -.4</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@class='seat0']/property[@name='rotation']/@value">-15, 0, 0</set>-->
+	
 	<append xpath="vehicles/vehicle[@name='vehicleBicycle']">
         <property class="seat1">
-            <property name="position" value="0, 0.06, -.54"/>
-            <property name="rotation" value="0, 0, 0"/>
+            <property name="position" value="0, 0.1, -.4"/>
+            <property name="rotation" value="-15, 0, 0"/>
             <property name="exit" value=".8,0,-.5 ~ -.8,0,-.5 ~ 0,0,2 ~ 0,0,-2 ~ 0,1.5,-.5"/>
         </property>
     </append>
@@ -88,7 +93,7 @@
 				<property name="slot_type" value="engine"/>
 				<property name="mesh" value="engine_small"/>
 				<property name="transform" value="engine_small"/>
-				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine"/>
 				<property name="fuelKmPerL" value="1"/>
 				<property name="gear1" value="
 									500,2500, -1400,800,0, 700,2200,900,
@@ -256,7 +261,7 @@
 				<property name="slot_type" value="engine"/>
 				<property name="mesh" value="engine_small"/>
 				<property name="transform" value="engine_small"/>
-				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine"/>
 				<property name="fuelKmPerL" value="2"/>
 				<property name="gear1" value="
 									500,2500, -1400,800,0, 700,2000,900,
@@ -417,7 +422,7 @@
 			<property name="slot_type" value="engine"/>
 			<property name="mesh" value="engine_small"/>
 			<property name="transform" value="engine_small"/>
-			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine"/>
 			<property name="fuelKmPerL" value="2"/>
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2000,900,
@@ -556,7 +561,7 @@
 				<property name="slot_type" value="engine"/>
 				<property name="mesh" value="engine_small"/>
 				<property name="transform" value="engine_small"/>
-				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine"/>
 				<property name="fuelKmPerL" value="2"/>
 				<property name="gear1" value="
 									500,2500, -1400,800,0, 700,2000,900,
@@ -694,7 +699,7 @@
 				<property name="slot_type" value="engine"/>
 				<property name="mesh" value="engine_small"/>
 				<property name="transform" value="engine_small"/>
-				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine"/>
 				<property name="fuelKmPerL" value="4"/>
 				<property name="gear1" value="
 									500,2500, -1400,800,0, 1500,9999,9999,
@@ -844,7 +849,7 @@
 				<property name="slot_type" value="engine"/>
 				<property name="mesh" value="engine_small"/>
 				<property name="transform" value="engine_small"/>
-				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine"/>
 				<property name="fuelKmPerL" value="0.8"/>
 				<property name="gear1" value="
 									500,2500, -1400,800,0, 700,2200,900,
@@ -996,7 +1001,7 @@
 				<property name="slot_type" value="engine"/>
 				<property name="mesh" value="engine_small"/>
 				<property name="transform" value="engine_small"/>
-				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine"/>
 				<property name="fuelKmPerL" value=".5"/>
 				<property name="gear1" value="
 									500,2500, -1400,800,0, 700,2200,900,
@@ -1311,6 +1316,145 @@
 				<property name="bright" value=".7"/>
 			</property>
 			
+			<property class="storage">
+				<property name="class" value="Storage"/>
+				<property name="display_name" value="basket"/>
+				<property name="slot_type" value="basket"/>
+				<property name="mesh" value="basket"/>
+				<property name="transform" value="basket"/>
+				<property name="parent_part" value="chassis"/>
+			</property>
+
+		</vehicle>
+		
+		<vehicle name="manux_vehicleMonoHog">
+
+			<property name="cameraDistance" value="3.5, 5"/>
+			<property name="cameraTurnRate" value=".2, .35"/>
+			<property name="motorTorqueMinQ" value="5500"/>
+			<property name="motorTorqueMaxQ" value="8000"/>
+			<property name="brakeTorque" value="5000"/>
+			<property name="upAngleMax" value="90"/>
+			<property name="upForce" value="5"/>
+			<property name="steerRate" value="150"/>
+			<property name="steerCenteringRate" value="100"/>
+			<property name="tiltAngleMax" value="40"/>
+			<property name="tiltThreshold" value="0.01"/>
+			<property name="tiltDampening" value=".9"/>
+			<property name="tiltDampenThreshold" value="20"/>
+			<property name="tiltUpForce" value="5"/>
+			<property name="hopForce" value="8"/>
+			<property name="unstickForce" value="12"/>
+			<property name="velocityMax" value="16,25"/>
+			<property name="waterDrag_y_velScale_velMaxScale" value="0.5, 0.9, 0.1"/>
+			<property name="wheelPtlScale" value="1"/>
+
+			<property name="hornSound" value="vehicle/minibike/minibike_horn"/>
+
+			<property class="battery">
+				<property name="class" value="Battery"/>
+				<property name="slot_type" value="battery"/>
+				<property name="mesh" value="battery"/>
+				<property name="transform" value="battery"/>
+				<property name="parent_part" value="chassis"/>
+			</property>
+
+			<property class="chassis">
+				<property name="class" value="Chassis"/>
+				<property name="display_name" value="chassis"/>
+				<property name="slot_type" value="chassis"/>
+				<property name="mesh" value="chassis"/>
+				<property name="transform" value="Origin"/>
+				<property name="part_damage_reduction" value="0.5"/>
+			</property>
+
+			<property class="engine">
+				<property name="class" value="Engine"/>
+				<property name="slot_type" value="engine"/>
+				<property name="mesh" value="engine_small"/>
+				<property name="transform" value="engine_small"/>
+				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine"/>
+				<property name="fuelKmPerL" value="2"/>
+				<property name="gear1" value="
+									500,2500, -1400,800,0, 700,2000,900,
+									Vehicles/Motorbike/motorbike_accel_1,
+									,
+									0, .7, 1, .1, -9, .15, .1, Vehicles/Motorbike/motorbike_idle_lp,
+									-.3, .1, .1, .4, -.05, 9, .2, Vehicles/Motorbike/motorbike_run_lp
+									"/>
+				<property name="gear2" value="
+									500,2500, -2000,1000,2000, 620,2200,800,
+									Vehicles/Motorbike/motorbike_accel_2,
+									Vehicles/Motorbike/motorbike_decel,
+									-.2, -.02, .1, .2, -1, 1, .1, Vehicles/Motorbike/motorbike_run_lp
+									"/>
+				<property name="gear3" value="
+									500,2500, -2000,1000,2000, 570,2200,1000,
+									Vehicles/Motorbike/motorbike_accel_3,
+									Vehicles/Motorbike/motorbike_decel,
+									-.21, -.05, .1, .2, -1, 1, .1, Vehicles/Motorbike/motorbike_run_lp
+									"/>
+				<property name="gear4" value="
+									500,2500, -2000,1000,2000, 500,9999,9999,
+									,
+									Vehicles/Motorbike/motorbike_decel,
+									-.25, -.08, .55, .45, -1, 1, .1, Vehicles/Motorbike/motorbike_run_lp
+									"/>
+				<property name="sound_start" value="Vehicles/Motorbike/minibike_start_"/>
+				<property name="sound_shut_off" value="Vehicles/Motorbike/minibike_shutoff_"/>
+				<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+				<property name="parent_part" value="chassis"/>
+			</property>
+
+			<property class="fuelTank">
+				<property name="class" value="FuelTank"/>
+				<property name="parent_part" value="engine"/>
+				<property name="capacity" value="12"/>
+			</property>
+
+			<property class="handlebars">
+				<property name="class" value="Steering"/>
+				<property name="slot_type" value="handlebars"/>
+				<property name="mesh" value="handlebar"/>
+				<property name="transform" value="Origin/FakeHandlebar"/>
+				<property name="steerMaxAngle" value="0"/>
+				<property name="IKHandLPosition" value="-.3329, .2552, -.158"/>
+				<property name="IKHandLRotation" value="27.30321, -15.59375, 8.961643"/>
+				<property name="IKHandRPosition" value=".3329, .2552, -.158"/>
+				<property name="IKHandRRotation" value="27.30321, 15.59375, -8.961643"/>
+				<property name="parent_part" value="chassis"/>
+			</property>
+
+			<property class="seat0">
+				<property name="position" value="0, 0.3, -.1201"/>
+				<property name="rotation" value="0, 0, 0"/>
+				<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+			</property>
+			
+			<property class="seat1">
+				<property name="position" value="0, 0.45, -.5"/>
+				<property name="rotation" value="0, 0, 0"/>
+				<property name="exit" value=".9,0,-.5 ~ -.9,0,-.5 ~ 0,0,-2 ~ 0,0,2 ~ 0,1.5,-.5"/>
+			</property>
+
+			<property class="wheel0">
+				<property name="steerTransform" value="Origin/handlebar_joint"/>
+				<property name="tireTransform" value="Origin/handlebar_joint/FakeFrontWheelJoint"/>
+				<property name="torqueScale_motor_brake" value=".15, .5"/>
+			</property>
+			
+			<property class="wheel1">
+				<property name="tireTransform" value="Origin/MonoWheelJoint"/>
+				<property name="torqueScale_motor_brake" value="1, 1"/>
+			</property>
+
+			<property class="headlight">
+				<property name="class" value="Headlight"/>
+				<property name="parent_part" value="handlebars"/>
+				<property name="transform" value="Origin/headlight"/>
+				<property name="bright" value=".9"/>
+			</property>
+
 			<property class="storage">
 				<property name="class" value="Storage"/>
 				<property name="display_name" value="basket"/>

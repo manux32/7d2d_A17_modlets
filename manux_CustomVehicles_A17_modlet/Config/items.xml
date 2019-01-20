@@ -184,5 +184,20 @@
 			</effect_group>
 		</item>
 		
+		<item name="manux_vehicleMonoHogPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="manux_MonoHog"/>
+			<property name="DescriptionKey" value="manux_vehicleMonoHogDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/manux_MonoHog.unity3d?MonoHog_A17.prefab"/>
+			<property name="EconomicValue" value="20000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="manux_vehicleMonoHog"/>
+				<property name="VehicleSize" value="1, 3, 3"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="3000,6000" tier="1,6"/>
+			</effect_group>
+		</item>
+		
 	 </append>
  </configs>
