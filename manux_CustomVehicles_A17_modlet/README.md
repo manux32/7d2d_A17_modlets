@@ -207,3 +207,6 @@ For adding underwater capabillities to all vehicles in the A16 mod. He is a top 
 
 ### JaxTeller718  
 For doing great sounds for Dust2Death's A16 Road Hog. In the A16 full mod, I am also using those sounds on the Hell Goat Bike and the Loader.
+
+### Gareee
+Gareee, on the 7D2D forum, for making a better Jet Pack icon, and for great suggestions on how to tweak the A17 progression for vehicles.
