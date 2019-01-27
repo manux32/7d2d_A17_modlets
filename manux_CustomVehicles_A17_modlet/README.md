@@ -28,10 +28,14 @@ You can simply place this modlet in the Mods folder of your A17 installation.
 The relative path should look something like this: ___"...\7 Days To Die\Mods\manux_CustomVehicles_A17_modlet"___  
 I don't think A17 currently supports automatically reading from Localization files that are inside mod folders. So, you can simply copy the content of the _Config/Localization.txt_ file to the Game's _Localization.txt_ file.  
 
+## Updating the modlet
+When updating the modlet to a newer version, you should always delete the old version completely before replacing it. 
+
+## SDX version
 [**SDX Version here**](https://github.com/manux32/7d2d_A17_sdx_mods).
 
 
-## Vids
+# Vids
 | [![new toys](http://img.youtube.com/vi/OKTsIO4xcEI/0.jpg)](https://youtu.be/OKTsIO4xcEI "A17 - New toys in action") | [![monster beetle](http://img.youtube.com/vi/vpqBS0liAQM/0.jpg)](https://youtu.be/vpqBS0liAQM "Monster Beetle") | [![helico and Jet Pack](http://img.youtube.com/vi/7U7VUzD9iWM/0.jpg)](https://youtu.be/7U7VUzD9iWM "Helico and Jet Pack") | [![Pedal Gyro](http://img.youtube.com/vi/AM6buSS7lbs/0.jpg)](https://youtu.be/AM6buSS7lbs "Human-powered Gyrocopter") | [![MonoHog](http://img.youtube.com/vi/jue0A-AcKRA/0.jpg)](https://youtu.be/jue0A-AcKRA "Mono-Hog Prototype") |  
 |:---:|:---:|:---:|:---:|:---:|  
 |A17 - New toys in action|Monster Beetle|Helico and Jet Pack|Human-powered Gyrocopter|Mono-Hog Prototype|   
