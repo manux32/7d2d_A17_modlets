@@ -1,0 +1,60 @@
+<configs>
+	
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='vehicleParts']" >
+		
+		<lootgroup name="manux_CarParts">
+			<item name="manux_vehicleCarChassis"/>
+			<item name="manux_vehicleCarAccessories"/>
+			<item name="vehicleWheels"/>
+			<item name="smallEngine"/>
+			<item name="carBattery"/>
+		</lootgroup>
+		
+		<lootgroup name="manux_PedalGyroParts">
+			<item name="vehicleGyroCopterChassis"/>
+			<item name="vehicleGyroCopterAccessories"/>
+			<item name="manux_vehicleHelicopterRotor"/>
+			<item name="vehicleWheels"/>
+			<item name="carBattery"/>
+		</lootgroup>
+		
+		<lootgroup name="manux_HPVehicleParts">
+			<item name="vehicle4x4TruckAccessories"/>
+			<item name="manux_bigEngine"/>
+			<item name="manux_vehicleBigWheels"/>
+			<item name="vehicleWheels"/>
+			<item name="carBattery"/>
+		</lootgroup>
+	
+		<lootgroup name="manux_HelicopterParts">
+			<item name="manux_vehicleHelicopterChassis"/>
+			<item name="vehicleGyroCopterAccessories"/>
+			<item name="manux_vehicleHelicopterRotor"/>
+			<item name="manux_bigEngine"/>
+			<item name="carBattery"/>
+		</lootgroup>
+		
+	</insertBefore>
+	
+	
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='automotive']" >
+		<lootgroup name="manux_veryRareAutomotive">
+			<item name="manux_bigEngine"/>
+			<item name="manux_vehicleBigWheels"/>
+		</lootgroup>
+	</insertBefore>
+	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='vehicleParts']">
+		<item group="manux_CarParts" loot_prob_template="probTemplate1.0"/>
+		<item group="manux_PedalGyroParts" loot_prob_template="probTemplate1.0"/>
+		<item group="manux_HPVehicleParts" loot_prob_template="probTemplate0.75"/>
+		<item group="manux_HelicopterParts" loot_prob_template="probTemplate0.5"/>
+	</append>
+	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='automotive']">
+		<item group="manux_veryRareAutomotive" loot_prob_template="probTemplate0.75"/>
+	</append>
+	
+ </configs>

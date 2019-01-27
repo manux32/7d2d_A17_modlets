@@ -1,11 +1,9 @@
 <configs>
 	
-	<append xpath="/progression/perks">
-	</append>
-	
+	<!--<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='1,5']/@tags"></append>-->
 	<!--<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='2,5']/@tags"></append>-->
-	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='3,5']/@tags">,manux_vehicleQuadPlaceable,manux_vehicleCarChassis,manux_vehicleCarAccessories,manux_vehicleCicadaCarPlaceable,manux_vehicleHelicopterRotor,manux_vehiclePedalGyroPlaceable</append>
-	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,manux_vehicleRoadHogPlaceable,manux_vehicleJetPackPlaceable</append>
-	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='5']/@tags">,manux_bigEngine,manux_vehicleHellGoatBikePlaceable,manux_vehicleHP4x4TruckPlaceable,manux_vehicleBigWheels,manux_vehicleMonsterBeetlePlaceable,manux_vehicleHelicopterChassis,manux_vehicleHelicopterOH58Placeable,manux_vehicleMonoHogPlaceable</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='3,5']/@tags">,manux_vehicleCarChassis,manux_vehicleCarAccessories,vehicleGyroCopterChassis,manux_vehicleHelicopterRotor</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,manux_bigEngine,manux_vehicleBigWheels,vehicleGyroCopterAccessories</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='5']/@tags">,manux_vehicleHelicopterChassis</append>
  
  </configs>

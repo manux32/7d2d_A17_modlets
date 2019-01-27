@@ -997,26 +997,21 @@
 			
 			<property class="engine">
 				<property name="class" value="Engine"/>
-				<property name="display_name" value="engine"/>
 				<property name="slot_type" value="engine"/>
-				<property name="mesh" value="engine_small"/>
-				<property name="transform" value="engine_small"/>
-				<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine"/>
 				<property name="fuelKmPerL" value=".5"/>
 				<property name="gear1" value="
-									500,2500, -1400,800,0, 700,2200,900,
-									Vehicles/Suv/suv_accel1,
-									Vehicles/Suv/suv_decel1,
-									0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,
-									-.4, -.02, .7, .7, -.2, 9, .2, Vehicles/Suv/suv_max_speed_lp
+									500,2500, -1400,800,0, 1500,9999,9999,
+									,
+									,
+									0, .5,  .45, .1,  -9, .1, .1, helicopter_max_speed_lp,
+									-.1, .1,  .65, .7,  0, 9, .1, helicopter_max_speed_lp
 									"/>
-				<property name="sound_start" value="Vehicles/Suv/suv_startup"/>
-				<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
-				<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
-				<property name="part_damage_reduction" value="0.5"/>
+				<property name="sound_start" value="Vehicles/Gyrocopter/gyrocopter_start"/>
+				<property name="sound_shut_off" value="Vehicles/Gyrocopter/gyrocopter_shutoff"/>
+				<property name="sound_no_fuel_shut_off" value="Vehicles/Gyrocopter/gyrocopter_sputter"/>
 				<property name="parent_part" value="chassis"/>
 			</property>
-
+			
 			<property class="fuelTank">
 				<property name="class" value="FuelTank"/>
 				<property name="parent_part" value="engine"/>

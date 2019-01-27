@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="manux_CustomVehicles_A17_modlet" />
-		<Description value="An XML-only Custom Vehicles modlet that adds some of the Vehicles from my A16 mod" />
+		<Description value="An XML-only Custom Vehicles modlet that adds some of the Vehicles from my A16 mod, and some new ones. No C# code, so not all my A16 features are there. For example: no weapons features." />
 		<Author value="manux" />
 		<Version value="1.0" />
 		<Website value="" />

@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/recipes">
 	
-		<recipe name="manux_bigEngine" count="1" craft_area="workbench" craft_time="1200">
+		<recipe name="manux_bigEngine" count="1" craft_area="workbench" craft_time="360" tags="learnable">
 			<ingredient name="resourceForgedSteel" count="40"/>
 			<ingredient name="resourceMechanicalParts" count="30"/>
 			<ingredient name="resourceSpring" count="20"/>
@@ -9,7 +9,7 @@
 			<ingredient name="smallEngine" count="3"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleCarChassis" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleCarChassis" count="1" craft_area="workbench" craft_time="300" tags="learnable">
 			<ingredient name="resourceForgedSteel" count="150"/>
 			<ingredient name="resourceMechanicalParts" count="25"/>
 			<ingredient name="resourceDuctTape" count="18"/>
@@ -17,7 +17,7 @@
 			<ingredient name="resourceElectricParts" count="10"/>
 		</recipe>
 
-		<recipe name="manux_vehicleCarAccessories" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleCarAccessories" count="1" craft_area="workbench" craft_time="300" tags="learnable">
 			<ingredient name="resourceMechanicalParts" count="10"/>
 			<ingredient name="resourceDuctTape" count="15"/>
 			<ingredient name="resourceHeadlight" count="4"/>
@@ -25,7 +25,7 @@
 			<ingredient name="resourceScrapPolymers" count="20"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleHP4x4TruckPlaceable" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleHP4x4TruckPlaceable" count="1" craft_area="workbench" craft_time="600">
 			<ingredient name="vehicleWheels" count="4"/>
 			<ingredient name="vehicle4x4TruckChassis" count="1"/>
 			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
@@ -33,7 +33,7 @@
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
 
-		<recipe name="manux_vehicleQuadPlaceable" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleQuadPlaceable" count="1" craft_area="workbench" craft_time="300">
 			<ingredient name="vehicleWheels" count="4"/>
 			<ingredient name="vehicleMotorcycleChassis" count="1"/>
 			<ingredient name="vehicleMotorcycleHandlebars" count="1"/>
@@ -41,7 +41,7 @@
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleHellGoatBikePlaceable" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleHellGoatBikePlaceable" count="1" craft_area="workbench" craft_time="360">
 			<ingredient name="vehicleWheels" count="2"/>
 			<ingredient name="vehicleMotorcycleChassis" count="1"/>
 			<ingredient name="vehicleMotorcycleHandlebars" count="1"/>
@@ -49,7 +49,7 @@
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleRoadHogPlaceable" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleRoadHogPlaceable" count="1" craft_area="workbench" craft_time="300">
 			<ingredient name="vehicleWheels" count="2"/>
 			<ingredient name="vehicleMotorcycleChassis" count="1"/>
 			<ingredient name="vehicleMotorcycleHandlebars" count="1"/>
@@ -57,7 +57,7 @@
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleCicadaCarPlaceable" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleCicadaCarPlaceable" count="1" craft_area="workbench" craft_time="420">
 			<ingredient name="vehicleWheels" count="4"/>
 			<ingredient name="manux_vehicleCarChassis" count="1"/>
 			<ingredient name="manux_vehicleCarAccessories" count="1"/>
@@ -65,7 +65,7 @@
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleBigWheels" count="1" tags="learnable">
+		<recipe name="manux_vehicleBigWheels" count="1" craft_area="workbench" craft_time="180" tags="learnable">
 			<ingredient name="resourceScrapPolymers" count="60"/>
 			<ingredient name="resourceAcid" count="3"/>
 			<ingredient name="resourceForgedIron" count="6"/>
@@ -73,12 +73,12 @@
 			<ingredient name="resourceCoal" count="30"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleBigWheels" count="1" tags="learnable">
+		<recipe name="manux_vehicleBigWheels" count="1" craft_area="workbench" craft_time="180" tags="learnable">
 			<ingredient name="vehicleWheels" count="3"/>
 			<ingredient name="resourceGlue" count="6"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleMonsterBeetlePlaceable" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleMonsterBeetlePlaceable" count="1" craft_area="workbench" craft_time="480">
 			<ingredient name="manux_vehicleBigWheels" count="4"/>
 			<ingredient name="manux_vehicleCarChassis" count="1"/>
 			<ingredient name="vehicle4x4TruckAccessories" count="1"/>
@@ -86,7 +86,7 @@
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleHelicopterChassis" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleHelicopterChassis" count="1" craft_area="workbench" craft_time="300" tags="learnable">
 			<ingredient name="resourceForgedSteel" count="250"/>
 			<ingredient name="resourceMechanicalParts" count="40"/>
 			<ingredient name="resourceDuctTape" count="30"/>
@@ -94,7 +94,7 @@
 			<ingredient name="resourceElectricParts" count="20"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleHelicopterRotor" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleHelicopterRotor" count="1" craft_area="workbench" craft_time="300" tags="learnable">
 			<ingredient name="resourceForgedSteel" count="100"/>
 			<ingredient name="resourceMechanicalParts" count="20"/>
 			<ingredient name="resourceElectricParts" count="10"/>
@@ -102,7 +102,7 @@
 			<ingredient name="resourceDuctTape" count="20"/>	
 		</recipe>
 		
-		<recipe name="manux_vehicleHelicopterOH58Placeable" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleHelicopterOH58Placeable" count="1" craft_area="workbench" craft_time="600">
 			<ingredient name="manux_vehicleHelicopterChassis" count="1"/>
 			<ingredient name="manux_vehicleHelicopterRotor" count="1"/>
 			<ingredient name="vehicleGyroCopterAccessories" count="1"/>
@@ -110,7 +110,7 @@
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleJetPackPlaceable" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleJetPackPlaceable" count="1" craft_area="workbench" craft_time="420">
 			<ingredient name="resourceForgedSteel" count="100"/>
 			<ingredient name="vehicleGyroCopterAccessories" count="1"/>
 			<ingredient name="resourceScrapPolymers" count="20"/>
@@ -118,7 +118,7 @@
 			<ingredient name="resourceDuctTape" count="20"/>
 		</recipe>
 		
-		<recipe name="manux_vehiclePedalGyroPlaceable" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehiclePedalGyroPlaceable" count="1" craft_area="workbench" craft_time="360">
 			<ingredient name="vehicleWheels" count="3"/>
 			<ingredient name="vehicleGyroCopterChassis" count="1"/>
 			<ingredient name="manux_vehicleHelicopterRotor" count="1"/>
@@ -126,7 +126,7 @@
 			<ingredient name="carBattery" count="1"/>
 		</recipe>
 		
-		<recipe name="manux_vehicleMonoHogPlaceable" count="1" craft_area="workbench" tags="learnable">
+		<recipe name="manux_vehicleMonoHogPlaceable" count="1" craft_area="workbench" craft_time="360">
 			<ingredient name="manux_vehicleBigWheels" count="1"/>
 			<ingredient name="vehicleMotorcycleChassis" count="1"/>
 			<ingredient name="vehicleMotorcycleHandlebars" count="1"/>

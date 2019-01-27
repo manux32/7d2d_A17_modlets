@@ -1,0 +1,10 @@
+<configs>
+	
+	<append xpath="/Sounds">
+		<SoundDataNode name="helicopter_max_speed_lp"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="#@modfolder:Resources/manux_HelicopterOH58.unity3d?HelicopterRotor" Loop="true"/>
+			<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> 
+		</SoundDataNode>
+	</append>
+	
+ </configs>
